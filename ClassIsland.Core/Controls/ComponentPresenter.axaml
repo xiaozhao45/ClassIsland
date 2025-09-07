@@ -29,7 +29,7 @@
     <Panel>
         <local:Shimmer x:Name="Shimmer" AutoDetectContentLoadState="False"
                        ClipToBounds="False"
-                       Padding="0 8">
+                       Padding="0">
             <Border x:Name="ComponentRootBorder"
                     SizeChanged="ComponentRootBorder_OnSizeChanged"
                     Classes.OnMainWindow="{Binding IsOnMainWindow, RelativeSource={RelativeSource FindAncestor, AncestorType=local:ComponentPresenter}}"
