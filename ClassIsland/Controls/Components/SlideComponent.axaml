@@ -37,8 +37,9 @@
             </ListBox.ItemsPanel>
             <ListBox.ItemContainerTheme>
                 <ControlTheme TargetType="ListBoxItem" >
+                    <Setter Property="Padding" Value="0"/>
                     <Setter Property="Template">
-                        <Setter Property="Padding" Value="0"/>
+                        
                         <Setter.Value>
                             <ControlTemplate TargetType="ListBoxItem">
                                 <ContentPresenter HorizontalAlignment="{Binding Settings.HorizontalAlignment, RelativeSource={RelativeSource AncestorType=ci:ComponentPresenter}}"
